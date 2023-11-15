@@ -1,8 +1,11 @@
 # by CryptoCode
 
-## an Library for Android Users
+## an Library for Kotlin Users
 
 Initial Commit only include kotlinx.datetime utils, others will follow.
+
+[![Kotlin](https://img.shields.io/badge/kotlin-1.9.20-blue.svg?logo=kotlin)](http://kotlinlang.org)
+[![Jitpack](https://jitpack.io/v/Morons/CryptoCodeKotlinLibrary.svg)](https://jitpack.io/#Morons/CryptoCodeKotlinLibrary)
 
 ### Sample time related functions
 
@@ -29,3 +32,25 @@ Initial Commit only include kotlinx.datetime utils, others will follow.
 * `pastXDaysUtc(days = 20)`=2023-10-26T14:26:18.780031Z
 
 P.S. Request more Utilities if you need.
+
+## Configuration
+
+### Gradle - Kotlin
+
+In your root build.gradle.kts
+
+```kotlin
+dependencyResolutionManagement {
+	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+	repositories {
+		mavenCentral()
+		maven("https://jitpack.io")
+	}
+}
+```
+add the dependency
+```kotlin
+dependencies {
+	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0")
+}
+```

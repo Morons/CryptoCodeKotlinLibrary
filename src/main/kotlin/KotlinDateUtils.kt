@@ -40,5 +40,7 @@ fun firstDayUtc() = firstDayUtc
 fun lastDayUtc() = lastDay
 fun dateInUtc() = dateInUtc
 fun in30DaysUtc() = datetimeInUtc.toInstant(TimeZone.UTC) + 30.days
+fun inXDaysUtc(days: Int) = datetimeInUtc.toInstant(TimeZone.UTC) + days.days
 fun past15DaysUtc() = (datetimeInUtc.toInstant(TimeZone.UTC) - 15.days)
 fun past60DaysUtc() = (datetimeInUtc.toInstant(TimeZone.UTC) - 60.days)
+fun pastXDaysUtc(days: Int) = (datetimeInUtc.toInstant(TimeZone.UTC) - days.days)

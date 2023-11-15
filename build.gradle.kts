@@ -16,7 +16,7 @@ version = "1.0"
 
 dependencies {
 
-	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
+	api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
 
 }
 
@@ -37,7 +37,7 @@ publishing {
 		create<MavenPublication>(name = "release") {
 			groupId = "com.github.Morons"
 			artifactId = "kotlin-library"
-			version = "1.1"
+			version = "1.0.1"
 
 			from(components["java"])
 		}
