@@ -26,10 +26,15 @@ Initial Commit only include kotlinx.datetime utils, others will follow.
 * `lastDayUtc()`=2023-11-30T00:00:00Z
 * `dateInUtc()`=2023-11-15
 * `in30DaysUtc()`=2023-12-15T14:26:18.780031Z
-* `inXDaysUtc(days = 20)`=2023-12-05T14:26:18.780031Z
 * `past15DaysUtc()`=2023-10-31T14:26:18.780031Z
 * `past60DaysUtc()`=2023-09-16T14:26:18.780031Z
+* `inXDaysUtc(days = 20)`=2023-12-05T14:26:18.780031Z
 * `pastXDaysUtc(days = 20)`=2023-10-26T14:26:18.780031Z
+* `String?.splitToStrings(delimiter: Char = ','): List<String>` Inverse of Kotlin `List<String>.joinToString()`
+* `fun <T> Gson.fromJsonOrNull(json: String, clazz: Class<T>): T?`  To convert json to classes
+* `fun String.isValidJson(): Boolean` To test if a json is valid
+* `getResourceProperty()` get a property value from resource file
+* `setResourceProperty()` set a property value in resource file
 
 P.S. Request more Utilities if you need.
 
@@ -39,7 +44,7 @@ P.S. Request more Utilities if you need.
 
 In your root build.gradle.kts
 
-```kotlin
+```
 dependencyResolutionManagement {
 	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 	repositories {
@@ -49,8 +54,8 @@ dependencyResolutionManagement {
 }
 ```
 add the dependency
-```kotlin
+```
 dependencies {
-	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0")
+	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0.2")
 }
 ```
