@@ -16,8 +16,8 @@ version = "1.0"
 
 dependencies {
 
-	api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
-	api("com.google.code.gson:gson:2.10.1")
+	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
+	implementation("com.google.code.gson:gson:2.10.1")
 
 }
 
@@ -38,7 +38,7 @@ publishing {
 		create<MavenPublication>(name = "release") {
 			groupId = "com.github.Morons"
 			artifactId = "kotlin-library"
-			version = "1.0.2"
+			version = "1.0.4"
 
 			from(components["java"])
 		}
