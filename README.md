@@ -1,6 +1,6 @@
 # by CryptoCode
 
-## an Library for Kotlin Users
+## a Library for Kotlin Users
 
 Initial Commit only include kotlinx.datetime utils, others will follow.
 
@@ -56,6 +56,6 @@ dependencyResolutionManagement {
 add the dependency
 ```
 dependencies {
-	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0.5")
+	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0.7")
 }
 ```

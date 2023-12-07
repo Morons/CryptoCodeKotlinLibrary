@@ -1,6 +1,8 @@
 import kotlinx.datetime.Clock
 
 fun main(args: Array<String>) {
+
+
 	println("Instant.dateTimePeriod() = ${Clock.System.now().dateTimePeriod()}")
 	println("nowToLongSystemDefault() = ${nowToLongSystemDefault()}")
 	println("currentMoment() = ${currentMoment()}")
