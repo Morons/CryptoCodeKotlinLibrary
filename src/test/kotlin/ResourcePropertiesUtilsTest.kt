@@ -1,5 +1,3 @@
-import ResourcePropertiesUtils.getResourceProperty
-import ResourcePropertiesUtils.setResourceProperty
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
