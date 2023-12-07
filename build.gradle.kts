@@ -16,10 +16,10 @@ version = "1.0"
 
 dependencies {
 
-	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
+	implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
 	implementation("com.google.code.gson:gson:2.10.1")
 
-	testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.20")
+	testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.21")
 
 }
 

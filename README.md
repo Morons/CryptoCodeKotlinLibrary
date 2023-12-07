@@ -56,6 +56,6 @@ dependencyResolutionManagement {
 add the dependency
 ```
 dependencies {
-	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0.7")
+	implementation("com.github.Morons:CryptoCodeKotlinLibrary:1.0.8")
 }
 ```
